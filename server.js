@@ -7,8 +7,8 @@ app.listen(3001, function () {
 });
 
 app.get('/', function (req, res) {
-    res.send('Hello World!');
+    res.render('firstpage')
 });
 app.get('/:name?', function (req, res) {
-    res.render('views/firstpage')
+    res.render('firstpage')
 });
