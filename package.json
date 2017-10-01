@@ -1,0 +1,24 @@
+{
+  "name": "my_heroku",
+  "version": "1.0.0",
+  "description": "test heroku",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/shoshi-bontact/heroku.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shoshi-bontact/heroku#readme"
+}
