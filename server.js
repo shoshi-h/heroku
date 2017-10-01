@@ -7,7 +7,7 @@ app.listen(process.env.PORT ||3001, function () {
 });
 
 app.get('/', function (req, res) {
-    res.render('firstpage',{name:'shoshi'})
+    res.render('firstpage')
 });
 app.get('/:name?', function (req, res) {
     res.render('firstpage',{name:req.params.name})
